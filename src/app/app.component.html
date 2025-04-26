@@ -1,4 +1,14 @@
-<app-contact />
-<app-header />
-<router-outlet />
-<app-footer />
+<div class="body-container">
+  <header>
+    <app-contact />
+    <app-header />
+  </header>
+  <main>
+    <app-card>
+      <router-outlet />
+    </app-card>
+  </main>
+  <footer>
+    <app-footer />
+  </footer>
+</div>
